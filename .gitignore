@@ -1,0 +1,8 @@
+# Environments
+.env
+.app
+env/
+venv/
+ENV/
+env.bak/
+app.bak/
