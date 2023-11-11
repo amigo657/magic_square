@@ -53,7 +53,7 @@ class Programm():
         self.panel = Label(self.window, image = self.image)
         self.panel.pack(side="top", fill=BOTH, expand=1)
         
-        self.data = Entry(self.window, width=10)
+        # self.data = Entry(self.window, width=10)
         self.data.pack()
 
         self.back_button = Button(self.window, text = "Назад", command = lambda: [
